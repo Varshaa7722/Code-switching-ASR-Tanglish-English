@@ -1,1 +1,5 @@
-# Code-switching-ASR-Tanglish-English
+#  Tanglish Code-Switching ASR (Automatic Speech Recognition) to English
+
+## Project Overview
+
+This project aims to solve the challenge of Tanglish (Tamil-English code-switched) Automatic Speech Recognition (ASR) by providing a complete English transcription from an uploaded or recorded audio file (WAV or MP3). The core Technical Stack leverages the Whisper Medium model from the Hugging Face Transformers library, running within a Google Colab environment using PyTorch. The Whisper model is critical as it serves a dual role: its multilingual capabilities allow it to perform speech recognition on the code-switched audio and simultaneously translate the content directly into Standard English, a highly effective approach for this specific ASR and translation task. The UI/UX interface is quickly deployed using Gradio, which provides a user-friendly, interactive web application within the Colab notebook. This interface handles the audio input (microphone or file upload) and displays the resulting English transcription, making the complex machine learning pipeline accessible and easy to test.
